@@ -1,7 +1,8 @@
 
 # 概要
 
-GoogleAppsのファイルが更新されたときにSlackに通知を行うGASです
+GoogleAppsのファイルが更新されたときにSlackに通知を行うGASです。  
+トリガーで監視スクリプトを定期的に実行することで監視を行います。  
 
 ![slack_message](./images/slack_message.png)
 
@@ -41,11 +42,11 @@ GoogleAppsのファイルが更新されたときにSlackに通知を行うGAS�
 
 エディタの「サービス」メニューを選択  
 
-![driveapp1](./images/driveapp1.png)
+![driveapi1](./images/driveapi1.png)
 
 サービス一覧から `Drive API` を選択して、追加をクリックして登録する。
 
-![driveapp2](./images/driveapp2.png)
+![driveapi2](./images/driveapi2.png)
 
 
 ### トリガーの追加に関して
